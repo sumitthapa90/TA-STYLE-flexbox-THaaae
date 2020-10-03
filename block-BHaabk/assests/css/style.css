@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* my css */
+
+header {
+  background-color: teal;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+header a {
+  text-decoration: none;
+  font-weight: 500;
+}
+.container {
+  width: 100%;
+  box-sizing: border-box;
+}
+article {
+  width: 100%;
+}
+.col {
+  width: 50%;
+  text-align: center;
+  text-align: justify;
+  height: 500px;
+  padding: 15px;
+}
+.bg-center {
+  background-position: center;
+}
+.bg-img-col {
+  background-image: url("../image//0e98314f-a2d6-47c6-80af-3508b64eb5b1.jpg");
+}
+.gallery-img {
+  box-sizing: border-box;
+  padding: 5px;
+  width: calc(100% / 3);
+  height: 300px;
+}
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.col p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: teal;
+}
